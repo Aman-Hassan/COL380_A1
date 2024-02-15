@@ -124,8 +124,8 @@ int main(int argc, char *argv[]) {
     duration<double> timeTaken = end_time - start_time;
     
     // Verification: Calculate the L2,1 norm of the residual matrix
-    double residual_norm = calculate_residual_norm(A_old, L, U, n, pi);
-    cout << "L2,1 norm of the residual matrix: " << residual_norm << endl;
+    // double residual_norm = calculate_residual_norm(A_old, L, U, n, pi);
+    // cout << "L2,1 norm of the residual matrix: " << residual_norm << endl;
     
     // Calculate and print the execution time
     cout << "Execution time: " << timeTaken.count() << " seconds" << endl;
